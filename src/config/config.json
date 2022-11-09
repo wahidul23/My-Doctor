@@ -9,9 +9,9 @@
         "dialectOptions": {
             "dateStrings": true,
             "typeCast": true,
-            "timezone": "+07:00"
+            "timezone": "+06:00"
         },
-        "timezone": "+07:00"
+        "timezone": "+06:00"
     },
     "test": {
         "dialect": "mysql",
@@ -23,8 +23,8 @@
         "dialectOptions": {
             "dateStrings": true,
             "typeCast": true,
-            "timezone": "+07:00"
+            "timezone": "+06:00"
         },
-        "timezone": "+07:00"
+        "timezone": "+06:00"
     }
 }

@@ -17,9 +17,9 @@ if (config.use_env_variable) {
         dialectOptions: {
             dateStrings: true,
             typeCast: true,
-            timezone: "+07:00"
+            timezone: "+06:00"
         },
-        timezone: "+07:00",
+        timezone: "+06:00",
         logging: false,
     });
 
@@ -31,9 +31,9 @@ if (config.use_env_variable) {
         dialectOptions: {
             dateStrings: true,
             typeCast: true,
-            timezone: "+07:00",
+            timezone: "+06:00",
         },
-        timezone: "+07:00",
+        timezone: "+06:00",
         logging: false,
     });
 

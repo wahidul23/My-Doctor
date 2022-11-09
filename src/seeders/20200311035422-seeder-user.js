@@ -4,10 +4,10 @@ module.exports = {
     up: (queryInterface, Sequelize) => {
         return queryInterface.bulkInsert('Users', [
             {
-                name: 'admin - HaryPhamDev',
+                name: 'admin - Wahidul Islam',
                 email: 'admin@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'New York',
+                address: 'Dinajpur',
                 phone: '088456732',
                 avatar: 'admin.png',
                 roleId: 1,
@@ -15,10 +15,10 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Doctor - Evan',
+                name: 'Doctor - Haque',
                 email: 'doctor@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'LA',
+                address: 'Dinajpur',
                 phone: '088456735',
                 avatar: 'doctor3.jpg',
                 roleId: 2,
@@ -26,10 +26,10 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Doctor - Ben',
+                name: 'Doctor - Bodruddhua',
                 email: 'doctor5@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'LA',
+                address: 'Dianjpur',
                 phone: '088456735',
                 avatar: 'doctor4.jpg',
                 roleId: 2,
@@ -37,10 +37,10 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Doctor - Hary Pham',
+                name: 'Doctor - Abul Kalam',
                 email: 'doctor10@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'LA',
+                address: 'Dinajpur',
                 phone: '088456735',
                 avatar: 'doctor1.jpg',
                 roleId: 2,
@@ -48,10 +48,10 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Doctor - Clever',
+                name: 'Doctor - Masum Billah',
                 email: 'doctor1@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'LA',
+                address: 'Dianjpur',
                 phone: '088456735',
                 avatar: 'doctor2.jpg',
                 roleId: 2,
@@ -59,10 +59,10 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Doctor - Sam',
+                name: 'Doctor - Aslam',
                 email: 'doctor2@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'LA',
+                address: 'Dianjpur',
                 phone: '088456735',
                 avatar: 'doctor3.jpg',
                 roleId: 2,
@@ -70,10 +70,10 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Doctor - Eric Pham',
+                name: 'Doctor - Dipu Sarker',
                 email: 'doctor3@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'LA',
+                address: 'Dinajpur',
                 phone: '088456735',
                 avatar: 'doctor4.jpg',
                 roleId: 2,
@@ -81,10 +81,10 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Supporter - Eric Pham',
+                name: 'Supporter - Raihanul',
                 email: 'supporter@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'Arizona',
+                address: 'Basherhat',
                 phone: '088456736',
                 avatar: 'supporter.png',
                 roleId: 3,
@@ -92,10 +92,10 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Supporter - Eric Pham 1',
+                name: 'Supporter - Atik',
                 email: 'supporter1@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'Arizona',
+                address: 'Dinajpur',
                 phone: '088456736',
                 avatar: 'supporter.png',
                 roleId: 3,
@@ -103,10 +103,10 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Supporter - Eric Pham 2',
+                name: 'Supporter - Morshadul Shohan',
                 email: 'supporter2@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'Arizona',
+                address: 'Dinajpur',
                 phone: '088456736',
                 avatar: 'supporter.png',
                 roleId: 3,
@@ -114,10 +114,10 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Supporter - Eric Pham 3',
+                name: 'Supporter - MA Wahid',
                 email: 'supporter3@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
-                address: 'Arizona',
+                address: 'Dinajpur',
                 phone: '088456736',
                 avatar: 'supporter.png',
                 roleId: 3,

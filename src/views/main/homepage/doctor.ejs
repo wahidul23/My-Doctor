@@ -16,9 +16,6 @@
                     <span class="d-block mx-5"><a href="/for-patients" class="text-decoration-none">For patients</a></span>
                     <span class="d-block"><a href="/for-doctors" class="text-decoration-none">For doctors</a></span>
                 </div>
-                <div class="col-2 d-flex justify-content-center align-items-center">
-                    <span><a href=" https://www.youtube.com/channel/UCHqJxLo7mKam9GKqqwr2wfA?sub_confirmation=1" target="_blank" class="text-decoration-none">Need support?</a></span>
-                </div>
             </div>
         </div>
     </div>
@@ -128,7 +125,7 @@
                                         <span class="d-block pb-1"
                                               style="border-bottom: 1px solid #ccc"><%= doctor.address %></span>
                                     </div>
-                                    <span class="d-block pt-2">Price: 50 USD</span>
+                                    <span class="d-block pt-2">Price: 500 Tk</span>
                                 </div>
                             <% } %>
                         </div>
@@ -174,7 +171,7 @@
                             <%= clinic.address %>
                         </div>
                         <div class="mt-3">Free appointment appointment</div>
-                        <div class="mt-3">Price: 50 USD</div>
+                        <div class="mt-3">Price: 500 Tk</div>
 
                     </div>
                     <div class="col-7">
@@ -266,7 +263,7 @@
             </div>
             <div class="modal-footer">
                 <div id="processLoading" class="process-loading d-none"> <span class="d-block mx-2"> <strong>Processing</strong></span><div class="loader"></div> </div>
-                <button type="button" class="ml-3 btn btn-secondary" data-dismiss="modal">Cancle</button>
+                <button type="button" class="ml-3 btn btn-secondary" data-dismiss="modal">Cancel</button>
                 <button type="button" class="btn btn-primary" id="btn-confirm-booking">Confirm medical appointment</button>
             </div>
         </div>
@@ -276,7 +273,7 @@
     var map, searchManager;
     function GetMap() {
         map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'AgOTudEefMLV68arfE7ea5Yx_ZNEQUrF-prgC0JeOJJk8EbOGZUHkpMaIYFDNld4',
+            credentials: 'Ah1-PNo14GPHl40iXxXDBWKmwolvoD-Z0qT4eW_TkHtKEa6jkBDgmlPa9upMmQkK',
         });
 
         //Make a request to geocode New York, NY.
@@ -298,7 +295,7 @@
                     //Add the first result to the map and zoom into it.
                     if (r && r.results && r.results.length > 0) {
                         var pin = new Microsoft.Maps.Pushpin(r.results[0].location, {
-                            title: $('#doctorAddress').val(),
+                            title: Tk('#doctorAddress').val(),
                             color: 'red'
                         });
 
